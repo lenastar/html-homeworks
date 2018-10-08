@@ -1,0 +1,32 @@
+.block-left{
+	display:inline-block;
+	background:#a3c741;
+	height:100%;
+	float: left;
+	text-align: center;
+	color: white;
+	width: 120px;
+	  }
+.block-right{
+	display:inline-block;
+	background: #4682B4;
+	color: white;
+	float: right;
+	text-align: center;
+	width: 120px;
+	height: 100%;
+	}
+.block-center{
+	display:inline-block;
+	background: #b784a7;
+	text-align: center;
+	height: 100%;
+	width: calc(100% - 240px);
+	color: white;
+}
+	
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}

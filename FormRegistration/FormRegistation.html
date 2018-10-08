@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Форма регистрации</title>
+	<style>
+		.registration {
+		width: 350px;
+		border: 2px solid #4682B4;
+		border-collapse: collapse;
+		background: #87CEEB;
+		color: white;
+		}
+		.registration h1{
+		border-bottom: 1px solid white;
+		padding: 7px;
+		}
+		.registration p{
+		padding: 7px;
+		margin: 5px;
+		}
+		.registration p.passwords{
+		display:inline-block;
+		}
+	</style>
+</head>
+<body>
+	<form class="registration">
+		<h1>Регистрация</h1>
+		<p>E-mail<br>
+			<input type="text" size="37">
+		</p>
+		
+		<p class="passwords">Пароль<br>
+			<input type="password" size="14">
+		</p>
+		<p class = "passwords">Ещё раз<br>
+			<input type="password" size="14">
+		</p>
+		<p><input type="submit" value="Отправить">
+		</p>
+	</form>
+</body>
+</html>

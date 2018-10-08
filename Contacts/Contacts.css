@@ -1,0 +1,58 @@
+.profile{
+		display: inline-block;
+		padding: 7px;
+		position: relative;
+	}
+.profile img{
+		border: 2px solid #7a7b7e; 
+		width: 120px; 
+		height: 120px; 
+		border-radius: 60px; 
+	}
+
+.icon{
+	width: 16px;
+	height: 16px;
+	border: 1px solid #7a7b7e; 
+	border-radius: 60px;
+	float: left;
+	background: url(icons.png) no-repeat;
+	background-color: #7a7b7e;
+}
+   
+.icon:hover{
+	background-color: 	#9966cc;
+}
+
+.icon.tw {
+	background-position: 0px 0px;
+	cursor: pointer;
+	position: absolute; 
+	bottom: 70px; 
+	left: 0px;
+}
+
+.icon.inst {
+	background-position: -16px 0px; 
+	cursor: pointer;
+	position: absolute; 
+	bottom: 90px; 
+	left: 5px; 
+}
+
+.icon.fb {
+	background-position: -16px -16px; 
+	cursor: pointer;
+	position: absolute; 
+	bottom: 110px; 
+	left: 17px; 
+}
+
+.icon.msg {
+	background-position: 0px -16px; 
+	cursor: pointer;
+	position: absolute; 
+	bottom: 1px; 
+	left: 60px; 
+	
+}
