@@ -1,0 +1,29 @@
+
+li{
+	display: inline-block;
+	width: 10%;
+	cursor: pointer;
+	list-style-type: none;
+	background: #ffff66;
+}
+
+li:hover{
+	background:#ff99bb;
+}
+
+@media screen and (max-width: 1000px){
+	li{
+		display: none;
+	}
+	ul:hover li{
+		display: block;
+		background: #ffff66;	
+	}
+	li:hover{
+		background: #ff99bb;
+	}
+	ul{
+		cursor: pointer;
+	}
+	
+}
