@@ -5,40 +5,43 @@
 	<title>Форма регистрации</title>
 	<style>
 		.registration {
-		width: 350px;
-		border: 2px solid #4682B4;
-		border-collapse: collapse;
-		background: #87CEEB;
-		color: white;
+			width: 350px;
+			height: 250px;
+			border: 2px solid #4682B4;
+			background: #87CEEB;
+			color: white;
+			padding: 10px;
+			margin: 20px;
 		}
 		.registration h1{
-		border-bottom: 1px solid white;
-		padding: 7px;
+			border-bottom: 1px solid white;
+			padding: 7px;
 		}
-		.registration p{
-		padding: 7px;
-		margin: 5px;
+		.registration div.e-mail input{
+			width: 90%;
 		}
-		.registration p.passwords{
-		display:inline-block;
-		}
+		.registration div.passwords{
+			margin: 12px 13px 12px 0;
+			width: 45%;
+			display: inline-block;	
+		}		
 	</style>
 </head>
 <body>
 	<form class="registration">
 		<h1>Регистрация</h1>
-		<p>E-mail<br>
-			<input type="text" size="37">
-		</p>
+		<div class="e-mail">E-mail
+		<input type="text">
+		<div class="passwords">Пароль<br>
+			<input type="password" >
+		</div>
+		<div class = "passwords">Ещё раз<br>
+			<input type="password">
+		</div>
+		</div>
 		
-		<p class="passwords">Пароль<br>
-			<input type="password" size="14">
-		</p>
-		<p class = "passwords">Ещё раз<br>
-			<input type="password" size="14">
-		</p>
-		<p><input type="submit" value="Отправить">
-		</p>
+		<div><input type="submit" value="Отправить">
+		</div>
 	</form>
 </body>
 </html>
