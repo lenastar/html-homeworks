@@ -1,29 +1,40 @@
 
+p{
+    display: none;
+}
 li{
 	display: inline-block;
-	width: 10%;
+	width: 25%;
 	cursor: pointer;
 	list-style-type: none;
-	background: #ffff66;
+	background: #5896ff;
+    opacity: .5;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 3px;
+    padding: 3px;
 }
 
 li:hover{
-	background:#ff99bb;
+	opacity: 1;
 }
 
 @media screen and (max-width: 1000px){
+    p{
+        display: block;
+        font-size: 20px;
+    }
 	li{
 		display: none;
 	}
 	ul:hover li{
 		display: block;
-		background: #ffff66;	
+        width: 100%;
 	}
-	li:hover{
-		background: #ff99bb;
-	}
+
 	ul{
 		cursor: pointer;
+        border: none;
 	}
-	
+
 }

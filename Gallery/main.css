@@ -1,0 +1,11 @@
+
+.row:hover > div{
+    opacity: .5;
+}
+
+.row:hover > .col-md-4:hover
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.38);
+    padding: 10px;
+    opacity: 1;
+}
