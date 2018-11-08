@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logotype</title>
+    <style>
+        #logotype{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+<div id="logotype" style="opacity: 1;">
+    <img src="https://pp.userapi.com/c846120/v846120736/f5d31/pzEU7vY6p4c.jpg">
+</div>
+</body>
+</html>
+<script>
+    function interval() {
+        window.setInterval(changeOpacity, 100);
+    }
+    function changeOpacity() {
+        let opacity = parseFloat(document.getElementById("logotype").style.opacity) - 0.01;
+        document.getElementById("logotype").style.opacity = opacity;
+    }
+    interval();
+</script>
